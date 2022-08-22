@@ -1,0 +1,347 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .header {
+        height: 180px;
+        background-image: url(/img/images/yellow_top_wave_01.png);
+        width: 100%;
+        background-size: cover;
+        .container {
+            padding: 5px 0px;
+            .logo-menu {
+                height: 80px;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    height: 80px;
+                    width: 80px;
+                    padding-left: 25px;
+                }
+                .navbar {
+                    font-weight: 600;
+                    color: black;
+                    font-size: 13px;
+                    word-spacing: 40px;
+                    width: 564px;
+                    margin-left: 310px;
+                    text-decoration: none;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        &:hover {
+                            color: #b61984;
+                        }
+                    }
+                }
+                .button {
+                    width: 250px;
+                    padding-left: 60px;
+                    .button-number {
+                        font-size: 14px;
+                    }
+                    .button-icon {
+                        width: 14px;
+                        height: 17px;
+                    }
+                }
+                .logo-apps {
+                    width: 98px;
+                    margin-right: 15px;
+                    font-size: 14.625px;
+                    font-weight: 38px;
+                    display: inline;
+                    letter-spacing: 3px;
+                     :hover {
+                        color: #b61984;
+                    }
+                }
+            }
+        }
+    }
+    
+    .carousel {
+        .container {
+            padding: 0;
+        }
+        .detail-thumbnail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .detail {
+                padding-left: 30px;
+                width: 50%;
+                h1 {
+                    color: #b61984;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 19.8px;
+                    margin: 0 0 8.25px;
+                    text-align: left;
+                    padding-bottom: 15px;
+                }
+                .desc-title {
+                    color: #191919;
+                    font-size: 57px;
+                    font-weight: 700;
+                    line-height: 68px;
+                    text-align: left;
+                }
+            }
+            .thumbnail {
+                width: 50%px;
+                height: 500px;
+                padding-right: 20px;
+            }
+        }
+    }
+    
+    .features {
+        padding-top: 60px;
+        .container {
+            padding: 0;
+        }
+        .detail-thumbnail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .detail {
+                padding-right: 20px;
+                padding-left: 30px;
+                width: 50%;
+                h1 {
+                    color: #b61984;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 19.8px;
+                    margin: 0 0 8.25px;
+                    text-align: left;
+                    padding-bottom: 10px;
+                }
+                .desc-title {
+                    color: #191919;
+                    font-size: 57px;
+                    font-weight: 700;
+                    line-height: 68px;
+                    text-align: left;
+                }
+                .text-explain {
+                    padding-top: 15px;
+                }
+            }
+            .thumbnail {
+                width: 50%;
+                height: 500px;
+                padding-right: 20px;
+            }
+        }
+    }
+    
+    .criteria {
+        height: 150px;
+        margin-top: 30px;
+        .container {
+            padding: 0;
+            .row {
+                padding-left: 25px;
+                padding-right: 25px;
+                display: flex;
+                justify-content: space-between;
+                .item {
+                    display: flex;
+                    justify-content: space-between;
+                    .logo:hover {
+                        color: #b61984;
+                    }
+                    .word {
+                        padding-left: 15px;
+                        h5 {
+                            padding-bottom: 7px;
+                        }
+                        h5:hover {
+                            color: #b61984;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .intro-teacher {
+        margin-left: 100px;
+        .container {
+            padding: 0;
+            background-image: url(/img/images/speech_bubble_outline_04.png);
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: 500px 450px;
+            margin-left: 40px;
+        }
+        .detail-thumbnail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .detail {
+                text-align: center;
+                padding-right: 70px;
+                width: 50%;
+                .title {
+                    font-style: italic;
+                    color: black;
+                    font-size: 27px;
+                    font-weight: 300;
+                    line-height: 54px;
+                    text-align: center;
+                    padding-bottom: 15px;
+                }
+                .name {
+                    color: #b61984;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 14.4px;
+                    padding-top: 10px;
+                    padding-bottom: 5px;
+                }
+            }
+            .thumbnail {
+                padding-right: 30px;
+            }
+        }
+    }
+    
+    .talented-teacher {
+        padding-top: 100px;
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+            .titleblog {
+                padding-left: 48px;
+                padding-bottom: 30px;
+                font-size: 48px;
+                font-weight: 800px;
+            }
+            .row {
+                display: flex;
+                align-items: stretch;
+                justify-content: space-evenly;
+                .col {
+                    width: 20%;
+                }
+                .item {
+                    background-color: whitesmoke;
+                    border-radius: 8px;
+                    height: 400px;
+                    img {
+                        width: 100%;
+                        height: 50%;
+                        border-radius: 10px 10px 0 0;
+                    }
+                    .from {
+                        padding-top: 15px;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+                    .from:hover {
+                        color: #b61984
+                    }
+                    .item__center {
+                        text-align: center;
+                        h3 {
+                            padding-bottom: 15px;
+                            font-size: 20px;
+                        }
+                        p {
+                            padding-bottom: 15px;
+                        }
+                    }
+                    .contact-app {
+                        word-spacing: 10px;
+                        text-align: center;
+                        i:hover {
+                            color: #b61984;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .footer {
+        height: 500px;
+        padding-top: 50px;
+        background-image: url(/img/images/footer_background.jpg);
+        background-size: cover;
+        .container {
+            padding-left: 50px;
+        }
+        .row {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-evenly;
+        }
+        .col {
+            width: 20%;
+            padding-left: 40px;
+            h3 {
+                color: #ffffff;
+                font-size: 24px;
+                padding-bottom: 10px;
+            }
+            ul {
+                font-size: 13px;
+                li {
+                    list-style-type: none;
+                    padding-bottom: 10px;
+                    text-decoration: none;
+                    color: white;
+                    span {
+                        padding-left: 5px;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    a:hover {
+                        color: #191919;
+                    }
+                }
+                .contact-app {
+                    word-spacing: 10px;
+                    text-align: left;
+                    color: #ffffff;
+                    i:hover {
+                        color: black;
+                    }
+                }
+            }
+            .email {
+                input {
+                    height: 30px;
+                    width: 200px;
+                    padding-bottom: 15px;
+                    border-radius: 10px;
+                    background-color: #b61984;
+                }
+            }
+            .button {
+                padding-top: 10px;
+                button {
+                    height: 30px;
+                    width: 200px;
+                    border-radius: 10px;
+                    background-color: whitesmoke;
+                }
+            }
+        }
+    }
